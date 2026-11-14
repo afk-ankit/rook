@@ -1,0 +1,8 @@
+{
+  "steps": [
+    {
+      "name": "Formatting server 🗿",
+      "command": "gofumpt -w . && git add -A ."
+    }
+  ]
+}

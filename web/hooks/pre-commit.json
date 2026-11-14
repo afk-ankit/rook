@@ -1,0 +1,8 @@
+{
+  "steps": [
+    {
+      "name": "Formatting web 🚀",
+      "command": "pnpm format && git add -A ."
+    }
+  ]
+}

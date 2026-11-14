@@ -14,7 +14,9 @@ func main() {
 	e.Use(middleware.Recover())
 
 	e.GET("/", func(c *echo.Context) error {
-		return c.JSON(http.StatusOK, map[string]string{"message": "Hello, Ankit!"})
+		return c.JSON(http.StatusOK, map[string]string{
+			"message": "Hello, from Rook 🗿!",
+		})
 	})
 
 	if err := e.Start(":8000"); err != nil {
